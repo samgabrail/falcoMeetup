@@ -1,6 +1,6 @@
 ## Demo
 ### Run falco pod logs on top terminal screen
-kubectl logs -f falco-daemonset-76gm8
+kubectl logs -f falco-<replace_with_podhashname>
 
 ### Run following commands on bottom terminal screen
 kubectl apply -f privilegedContainer.yaml
